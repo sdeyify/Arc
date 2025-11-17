@@ -1,0 +1,23 @@
+#pragma once
+
+#include <string>
+#include <vector>
+#include <map>
+#include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <optional>
+#include <variant>
+#include <memory>
+#include <format>
+#include <functional>
+#include <type_traits>
+#include <utility>
+#include <stack>
+#include <deque>
+#include <ranges>
+#include <chrono>
+#include <thread>
+#include <fstream>
+#include <filesystem>
+#include <iomanip>

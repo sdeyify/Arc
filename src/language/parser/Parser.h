@@ -1,0 +1,38 @@
+#include "LexingCategory.h"
+#include "Lexer.h"
+#include "lexerConstants.h"
+#include "Token.h"
+#include "TokenType.h"
+#include "TokenStream.h"
+#include "SplitTokenStream.h"
+#include "Operator.h"
+#include "nodes/ASTNode.h"
+#include "StatementKind.h"
+#include "nodes/Expression.h"
+#include "nodes/Statement.h"
+#include "IRGenerator.h"
+#include "IRInstructionKind.h"
+#include "ExpressionKind.h"
+#include "nodes/Modifier.h"
+#include "ASTIterationCommand.h"
+#include "ASTIterationExitKind.h"
+#include "ASTIterator.h"
+#include "AbstractSyntaxTree.h"
+#include "TraversableAST.h"
+#include "ASTMatcher.h"
+#include "ASTBuildingContext.h"
+#include "ASTBuilder.h"
+#include "astConstants.h"
+#include "IRBitsizeKind.h"
+#include "IRProgram.h"
+#include "ir/IRNodes.h"
+#include "IRBinaryOperationKind.h"
+#include "IRUnaryOperationKind.h"
+#include "IRMetadataKind.h"
+#include "MetadataHandler.h"
+
+namespace Arc
+{
+    namespace ASTNode = ::ASTNode;
+    namespace IRNodes = ::IRNodes;
+}

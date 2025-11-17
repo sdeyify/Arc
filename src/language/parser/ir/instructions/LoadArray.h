@@ -1,0 +1,20 @@
+#include "IRInstruction.h"
+#include "../metadata/IRMetadata.h"
+#include "../../MetadataHandler.h"
+#include "../../IRInstructionKind.h"
+#include "../../IRBitsizeKind.h"
+#include "../../../util/imports.h"
+
+namespace IRNodes
+{
+    struct LoadArray : IRInstruction
+    {
+        LoadArray(
+            const Arc::IRBitsizeKind& bitsize, const std::vector<Metadata>& metadata, const size_t line, const size_t col
+        ) : bitsize(bitsize), IRInstruction(Arc::MetadataHandler(metadata), line, col) {}
+
+        const Arc::IRBitsizeKind& bitsize;
+
+        Arc::IRInstructionKind kind() const override { return Arc::IRInstructionKind::LoadArray; }
+    };
+}

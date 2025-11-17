@@ -1,0 +1,10 @@
+#pragma once
+#include "LogKind.h"
+#include "Log.h"
+#include "ErrorId.h"
+#include "ErrorMessage.h"
+#include "ErrorLogger.h"
+#include "LogLevel.h"
+#include "LoggedMessage.h"
+#include "logColors.h"
+#include "ArcLogger.h"

@@ -1,0 +1,22 @@
+add befriends & befriended clause to classlikes & functions & vars & types
+add emitters for:
+-    DEX
+-    JVM
+-    MSIL
+-    PYC
+-    WASM
+
+Generalize BytecodeEmitter
+
+sort metadatas
+
+-------------
+
+fix wasm:
+    fn table
+    switch
+    labels & branchif
+    binop
+    wasm add stack swaps
+    array idx
+    ptrs
